@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HotelManagement.iml" filepath="$PROJECT_DIR$/HotelManagement.iml" />
+      <module fileurl="file://E:\GIT FILES\HotelManagement\HotelManagement.iml" filepath="E:\GIT FILES\HotelManagement\HotelManagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\GIT FILES\HotelManagement\app\app.iml" filepath="E:\GIT FILES\HotelManagement\app\app.iml" />
     </modules>
   </component>
 </project>
