@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    android:stretchColumns="0,1,3"
+    android:padding="10dp"
+    android:gravity="center_vertical">
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/precious"
+                android:textSize="30dp"
+                android:text="Menu"
+                android:textColor="#935126"
+                android:layout_height="100dp"/>
+        </TableRow>
+        <TableRow>
+                <TextView
+                    android:layout_width = "wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Chicken Nuggets"
+                    android:fontFamily="cursive"
+                    android:textSize="20dp"
+                    android:textColor="#935126"
+                   />
+                <TextView
+                    android:gravity="center_horizontal"
+                    android:text="Rs 100"
+                    android:fontFamily="cursive"
+                    android:textSize="20dp"
+                    android:textColor="#935126"
+                    />
+                <Button
+                    android:id="@+id/button_1_1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:text="-"
+                    android:textSize="10dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:tag="1"
+                    android:onClick="decreaseInteger"
+                    />
+                <TextView
+                    android:id="@+id/number1"
+                    android:text="0"
+                    android:gravity="center_horizontal"
+                    android:textColor="#935126"
+                    />
+            <Button
+                android:id="@+id/button_1_2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:onClick="increaseInteger"
+                android:tag="1"
+                android:text="+"
+                android:textColor="#000000"
+                android:textSize="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+        </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width = "wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Spring Roll"
+            android:fontFamily="cursive"
+            android:textSize="20dp"
+            android:textColor="#935126"
+            />
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="Rs 80"
+            android:fontFamily="cursive"
+            android:textSize="20dp"
+            android:textColor="#935126"
+            />
+        <Button
+            android:id="@+id/button_2_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="-"
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:tag="2"
+            android:onClick="decreaseInteger"
+            />
+        <TextView
+            android:id="@+id/number2"
+            android:text="0"
+            android:gravity="center_horizontal"
+            android:textColor="#935126"
+            />
+        <Button
+            android:id="@+id/button_2_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:onClick="increaseInteger"
+            android:tag="2"
+            android:text="+"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width = "wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Chicken Lollipop"
+            android:fontFamily="cursive"
+            android:textSize="20dp"
+            android:textColor="#935126"
+            />
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="Rs 90"
+            android:fontFamily="cursive"
+            android:textSize="20dp"
+            android:textColor="#935126"
+            />
+        <Button
+            android:id="@+id/button_3_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="-"
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:tag="3"
+            android:onClick="decreaseInteger"
+            />
+        <TextView
+            android:id="@+id/number3"
+            android:text="0"
+            android:textColor="#935126"
+            android:gravity="center_horizontal"
+            />
+        <Button
+            android:id="@+id/button_3_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:onClick="increaseInteger"
+            android:tag="3"
+            android:text="+"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width = "wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="French Fries"
+            android:fontFamily="cursive"
+            android:textSize="20dp"
+            android:textColor="#935126"
+            />
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="Rs 70"
+            android:fontFamily="cursive"
+            android:textSize="20dp"
+            android:textColor="#935126"
+            />
+        <Button
+            android:id="@+id/button_4_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="-"
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:tag="4"
+            android:onClick="decreaseInteger"
+            />
+        <TextView
+            android:id="@+id/number4"
+            android:text="0"
+            android:gravity="center_horizontal"
+            android:textColor="#935126"
+            />
+        <Button
+            android:id="@+id/button_4_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:onClick="increaseInteger"
+            android:tag="4"
+            android:text="+"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width = "wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Chicken Popcorn"
+            android:fontFamily="cursive"
+            android:textSize="20dp"
+            android:textColor="#935126"
+            />
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="Rs 80"
+            android:fontFamily="cursive"
+            android:textSize="20dp"
+            android:textColor="#935126"
+            />
+        <Button
+            android:id="@+id/button_5_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="-"
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:tag="5"
+            android:onClick="decreaseInteger"
+            />
+        <TextView
+            android:id="@+id/number5"
+            android:text="0"
+            android:gravity="center_horizontal"
+            android:textColor="#935126"
+            />
+        <Button
+            android:id="@+id/button_5_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:onClick="increaseInteger"
+            android:tag="5"
+            android:text="+"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width = "wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Dumplings"
+            android:fontFamily="cursive"
+            android:textSize="20dp"
+            android:textColor="#935126"
+            />
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="Rs 120"
+            android:fontFamily="cursive"
+            android:textSize="20dp"
+            android:textColor="#935126"
+            />
+        <Button
+            android:id="@+id/button_6_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="-"
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:tag="6"
+            android:onClick="decreaseInteger"
+            />
+        <TextView
+            android:id="@+id/number6"
+            android:text="0"
+            android:gravity="center_horizontal"
+            android:textColor="#935126"
+            />
+        <Button
+            android:id="@+id/button_6_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:onClick="increaseInteger"
+            android:tag="6"
+            android:text="+"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width = "wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Kabab"
+            android:fontFamily="cursive"
+            android:textSize="20dp"
+            android:textColor="#935126"
+            />
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="Rs 68"
+            android:fontFamily="cursive"
+            android:textSize="20dp"
+            android:textColor="#935126"
+            />
+        <Button
+            android:id="@+id/button_7_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="-"
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:tag="7"
+            android:onClick="decreaseInteger"
+
+            />
+        <TextView
+            android:id="@+id/number7"
+            android:text="0"
+            android:gravity="center_horizontal"
+            android:textColor="#935126"
+            />
+        <Button
+            android:id="@+id/button_7_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:onClick="increaseInteger"
+            android:tag="7"
+            android:text="+"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+    </TableRow>
+    </TableLayout>
